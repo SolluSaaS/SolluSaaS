@@ -1,35 +1,74 @@
 <div align="center">
 
-<img src="assets/header.svg" alt="Renatho Siqueira, CTO da NMK. Solution is more than software." width="100%"/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="assets/header-light.svg"/>
+  <img src="assets/header-dark.svg" alt="Renatho Siqueira, CTO da NMK. Solution is more than software." width="100%"/>
+</picture>
 
-<br/>
+<h6>
+  <a href="#-quem-sou">Quem sou</a>
+  ·
+  <a href="#-nmk-em-um-terminal">NMK em um terminal</a>
+  ·
+  <a href="#-trajetória">Trajetória</a>
+  ·
+  <a href="#-arsenal">Arsenal</a>
+  ·
+  <a href="#-contribuições">Contribuições</a>
+</h6>
 
-<a href="https://github.com/SolluSaaS"><img src="https://komarev.com/ghpvc/?username=SolluSaaS&label=visitantes%20da%20Matrix&color=00c02d&style=for-the-badge" alt="Visitantes"/></a>
-<img src="https://img.shields.io/badge/Barueri-SP-0d0208?style=for-the-badge&labelColor=00c02d" alt="Barueri, SP"/>
-<img src="https://img.shields.io/badge/NMK-CTO-0d0208?style=for-the-badge&labelColor=00c02d" alt="CTO da NMK"/>
-<img src="https://img.shields.io/badge/vibe%20coder-dono%20das%20ideias-0d0208?style=for-the-badge&labelColor=00c02d" alt="Vibe coder"/>
-<a href="https://github.com/SolluSaaS?tab=followers"><img src="https://img.shields.io/github/followers/SolluSaaS?label=seguir&style=for-the-badge&color=0d0208&labelColor=00c02d&logo=github" alt="Seguir"/></a>
+<a href="https://github.com/SolluSaaS"><img src="https://komarev.com/ghpvc/?username=SolluSaaS&label=visitantes&color=7ee787&labelColor=24292f&style=for-the-badge" alt="Visitantes"/></a>
+<img src="https://img.shields.io/badge/Barueri-SP-7ee787?style=for-the-badge&labelColor=24292f&color=7ee787" alt="Barueri, SP"/>
+<img src="https://img.shields.io/badge/NMK-CTO-7ee787?style=for-the-badge&labelColor=24292f&color=7ee787" alt="CTO da NMK"/>
+<img src="https://img.shields.io/badge/vibe%20coder-dono%20das%20ideias-7ee787?style=for-the-badge&labelColor=24292f&color=7ee787" alt="Vibe coder"/>
+<a href="https://github.com/SolluSaaS?tab=followers"><img src="https://img.shields.io/github/followers/SolluSaaS?label=seguir&logo=github&style=for-the-badge&labelColor=24292f&color=7ee787" alt="Seguir"/></a>
+
+<p><em>Estratégia, processos, automação e software sob medida com IA, para pequenas e médias empresas em Portugal e no Brasil.</em></p>
 
 </div>
 
-<br/>
+---
+
+## 🟢 Quem sou
 
 <div align="center">
-<img src="assets/whoami.svg" alt="Terminal: whoami" width="75%"/>
-</div>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/whoami-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="assets/whoami-light.svg"/>
+  <img src="assets/whoami-dark.svg" alt="Terminal: whoami" width="75%"/>
+</picture>
 
 <br/>
 
-<div align="center">
-<img src="assets/pilares.svg" alt="O que eu faço" width="49%"/>
-<img src="assets/maturidade.svg" alt="Mapa de maturidade" width="49%"/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/pilares-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="assets/pilares-light.svg"/>
+  <img src="assets/pilares-dark.svg" alt="O que eu faço" width="49%"/>
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/maturidade-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="assets/maturidade-light.svg"/>
+  <img src="assets/maturidade-dark.svg" alt="Mapa de maturidade" width="49%"/>
+</picture>
+
 </div>
 
-<br/>
+## 💊 NMK em um terminal
 
 <div align="center">
-<img src="assets/trajetoria.svg" alt="Trajetória" width="100%"/>
+  <img src="demo/nmk.gif" alt="Terminal rodando o script nmk: do problema do cliente ao app em produção, e a escolha da pílula vermelha" width="85%"/>
+  <p><sub>Não é montagem: é um script de verdade (<a href="demo/nmk">fonte</a>), feito com <a href="https://github.com/charmbracelet/gum">gum</a> e gravado com <a href="https://github.com/charmbracelet/vhs">VHS</a> (<a href="demo/demo.tape">roteiro</a>).</sub></p>
 </div>
+
+## 🛤 Trajetória
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/trajetoria-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="assets/trajetoria-light.svg"/>
+  <img src="assets/trajetoria-dark.svg" alt="Trajetória" width="100%"/>
+</picture>
 
 ## 🥋 Arsenal
 
@@ -68,11 +107,14 @@ O **H** do Renatho é estratégia de SEO. Quando eu dava aulas de SEO, havia qua
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SolluSaaS/SolluSaaS/output/snake-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/SolluSaaS/SolluSaaS/output/snake.svg"/>
   <img alt="Cobrinha comendo o gráfico de contribuições" src="https://raw.githubusercontent.com/SolluSaaS/SolluSaaS/output/snake.svg" width="100%"/>
 </picture>
 
-<br/>
+<br/><br/>
 
-<div align="center">
-<img src="assets/footer.svg" alt="Preferimos ter perguntas sem respostas a respostas que não podem ser questionadas." width="100%"/>
-</div>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/footer-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="assets/footer-light.svg"/>
+  <img src="assets/footer-dark.svg" alt="Preferimos ter perguntas sem respostas a respostas que não podem ser questionadas." width="100%"/>
+</picture>
