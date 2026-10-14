@@ -112,7 +112,7 @@ def whoami(t):
     rows = [("whoami", "Renatho Siqueira, o Nunes. Renatho com H."),
             ("cat cargo.txt", "CTO da NMK: soluções estratégicas para PMEs em Portugal e no Brasil."),
             ("cat stack-mental.txt", "Estratégia > processo > automação > software. Nessa ordem."),
-            ("uptime", "35+ anos em tecnologia. Começou aos 13. Profissional desde os 16."),
+            ("uptime", "35+ anos em tecnologia. Começou aos 13, no suporte. Professor aos 18."),
             ("echo $LEMA", "Stay hungry, stay foolish.")]
     CW, PRE, X = 9.6, 13, 28
     TW, TH = 900, 60 + 30 * (2 * len(rows) + 1) + 20
@@ -163,14 +163,16 @@ def whoami(t):
 
 
 def trajetoria(t):
-    steps = [("13 anos", "O primeiro código", "a tecnologia vira caminho"),
-             ("16–17", "Profissional", "agências e software houses"),
+    steps = [("13 anos", "Amiga e disquetes", "o primeiro emprego"),
+             ("16", "Suporte e infra", "DOS, .bat e regedit"),
+             ("18", "Professor", "redes Windows e Linux"),
+             ("20", "Casca grossa", "suporte, Linux e redes"),
              ("SEO", "Professor de SEO", "nasce o Renatho com H"),
              ("QA", "Quality assurance", "software houses"),
-             ("Gestão", "Líder de times", "marketing, dev e estratégia"),
+             ("Gestão", "Líder de times", "marketing, dev, estratégia"),
              ("Hoje", "CTO da NMK", "produtos com IA")]
     GW, GH = 1200, 300
-    x0, x1, ly = 150, 1050, 150
+    x0, x1, ly = 135, 1065, 150
     L, DASH, T, RUN = x1 - x0, 90, 6.0, 4.2
     nodes = []
     for i, (tag, title, sub) in enumerate(steps):
@@ -191,7 +193,7 @@ def trajetoria(t):
   <text x="{x:.0f}" y="{ty}" text-anchor="middle" class="t">{esc(title)}</text>
   <text x="{x:.0f}" y="{ty + 22}" text-anchor="middle" class="s">{esc(sub)}</text></g>''')
     run = RUN / T
-    return f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {GW} {GH}" width="{GW}" height="{GH}" role="img" aria-label="Trajetória: o primeiro código aos 13 anos, profissional aos 16, professor de SEO, quality assurance, líder de times e hoje CTO da NMK.">
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {GW} {GH}" width="{GW}" height="{GH}" role="img" aria-label="Trajetória: Amiga e disquetes aos 13, suporte aos 16, professor de redes aos 18, profissional aos 20, professor de SEO, quality assurance, líder de times e hoje CTO da NMK.">
 <style>
   .t {{ font: 700 18px {FONT}; fill: {t['text']}; }} .s {{ font: 14px {FONT}; fill: {t['sub']}; }}
   .tag {{ font: 600 13px {FONT}; fill: {t['acc']}; letter-spacing: 1px; }}
