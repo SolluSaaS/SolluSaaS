@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-label="Trajetória: o primeiro código aos 13 anos, profissional aos 16, professor de SEO, quality assurance, líder de times e hoje CTO da NMK.">
+<style>
+  .t { font: 700 18px ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace; fill: #1f2328; } .s { font: 14px ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace; fill: #59636e; }
+  .tag { font: 600 13px ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace; fill: #1a7f37; letter-spacing: 1px; }
+  .h { font: 600 14px ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace; fill: #2da44e; letter-spacing: 6px; }
+</style>
+<defs>
+  <linearGradient id="beam" x1="0" x2="1"><stop offset="0" stop-color="#1a7f37" stop-opacity="0"/><stop offset="1" stop-color="#116329"/></linearGradient>
+  <filter id="laser" filterUnits="userSpaceOnUse" x="0" y="110" width="1200" height="80"><feGaussianBlur stdDeviation="3.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1200" height="300" rx="14" fill="#ffffff"/>
+<text x="30" y="34" class="h">// TRAJETÓRIA</text>
+<line x1="150" y1="150" x2="1050" y2="150" stroke="#dafbe1" stroke-width="4" stroke-linecap="round"/>
+<line x1="150" y1="150" x2="1050" y2="150" stroke="#116329" stroke-width="4" stroke-linecap="round" stroke-dasharray="90 990" filter="url(#laser)">
+  <animate attributeName="stroke-dashoffset" dur="6.0s" repeatCount="indefinite" keyTimes="0;0.7000;1" values="90;-900;-900"/>
+  <animate attributeName="stroke-width" dur=".35s" repeatCount="indefinite" values="3;6;3"/>
+  <animate attributeName="opacity" dur="6.0s" repeatCount="indefinite" keyTimes="0;0.7000;0.7200;1" values="1;1;0;0"/>
+</line>
+<g><circle cx="150" cy="150" r="10" fill="none" stroke="#1a7f37" stroke-width="2" opacity="0"><animate attributeName="r" dur="6.0s" repeatCount="indefinite" keyTimes="0;0.0042;0.1209;1" values="10;10;30;30"/><animate attributeName="opacity" dur="6.0s" repeatCount="indefinite" keyTimes="0;0.0042;0.0242;0.1209;1" values="0;0;1;0;0"/></circle><circle cx="150" cy="150" r="10" fill="#ffffff" stroke="#1a7f37" stroke-width="3"/><circle cx="150" cy="150" r="4" fill="#1a7f37"><animate attributeName="r" dur="6.0s" repeatCount="indefinite" keyTimes="0;0.0042;0.0242;0.1209;1" values="4;4;8;4;4"/></circle>
+  <text x="150" y="184" text-anchor="middle" class="tag">13 anos</text>
+  <text x="150" y="98" text-anchor="middle" class="t">O primeiro código</text>
+  <text x="150" y="120" text-anchor="middle" class="s">a tecnologia vira caminho</text></g><g><circle cx="330" cy="150" r="10" fill="none" stroke="#1a7f37" stroke-width="2" opacity="0"><animate attributeName="r" dur="6.0s" repeatCount="indefinite" keyTimes="0;0.1315;0.2482;1" values="10;10;30;30"/><animate attributeName="opacity" dur="6.0s" repeatCount="indefinite" keyTimes="0;0.1315;0.1515;0.2482;1" values="0;0;1;0;0"/></circle><circle cx="330" cy="150" r="10" fill="#ffffff" stroke="#1a7f37" stroke-width="3"/><circle cx="330" cy="150" r="4" fill="#1a7f37"><animate attributeName="r" dur="6.0s" repeatCount="indefinite" keyTimes="0;0.1315;0.1515;0.2482;1" values="4;4;8;4;4"/></circle>
+  <text x="330" y="124" text-anchor="middle" class="tag">16–17</text>
+  <text x="330" y="212" text-anchor="middle" class="t">Profissional</text>
+  <text x="330" y="234" text-anchor="middle" class="s">agências e software houses</text></g><g><circle cx="510" cy="150" r="10" fill="none" stroke="#1a7f37" stroke-width="2" opacity="0"><animate attributeName="r" dur="6.0s" repeatCount="indefinite" keyTimes="0;0.2588;0.3755;1" values="10;10;30;30"/><animate attributeName="opacity" dur="6.0s" repeatCount="indefinite" keyTimes="0;0.2588;0.2788;0.3755;1" values="0;0;1;0;0"/></circle><circle cx="510" cy="150" r="10" fill="#ffffff" stroke="#1a7f37" stroke-width="3"/><circle cx="510" cy="150" r="4" fill="#1a7f37"><animate attributeName="r" dur="6.0s" repeatCount="indefinite" keyTimes="0;0.2588;0.2788;0.3755;1" values="4;4;8;4;4"/></circle>
+  <text x="510" y="184" text-anchor="middle" class="tag">SEO</text>
+  <text x="510" y="98" text-anchor="middle" class="t">Professor de SEO</text>
+  <text x="510" y="120" text-anchor="middle" class="s">nasce o Renatho com H</text></g><g><circle cx="690" cy="150" r="10" fill="none" stroke="#1a7f37" stroke-width="2" opacity="0"><animate attributeName="r" dur="6.0s" repeatCount="indefinite" keyTimes="0;0.3861;0.5027;1" values="10;10;30;30"/><animate attributeName="opacity" dur="6.0s" repeatCount="indefinite" keyTimes="0;0.3861;0.4061;0.5027;1" values="0;0;1;0;0"/></circle><circle cx="690" cy="150" r="10" fill="#ffffff" stroke="#1a7f37" stroke-width="3"/><circle cx="690" cy="150" r="4" fill="#1a7f37"><animate attributeName="r" dur="6.0s" repeatCount="indefinite" keyTimes="0;0.3861;0.4061;0.5027;1" values="4;4;8;4;4"/></circle>
+  <text x="690" y="124" text-anchor="middle" class="tag">QA</text>
+  <text x="690" y="212" text-anchor="middle" class="t">Quality assurance</text>
+  <text x="690" y="234" text-anchor="middle" class="s">software houses</text></g><g><circle cx="870" cy="150" r="10" fill="none" stroke="#1a7f37" stroke-width="2" opacity="0"><animate attributeName="r" dur="6.0s" repeatCount="indefinite" keyTimes="0;0.5133;0.6300;1" values="10;10;30;30"/><animate attributeName="opacity" dur="6.0s" repeatCount="indefinite" keyTimes="0;0.5133;0.5333;0.6300;1" values="0;0;1;0;0"/></circle><circle cx="870" cy="150" r="10" fill="#ffffff" stroke="#1a7f37" stroke-width="3"/><circle cx="870" cy="150" r="4" fill="#1a7f37"><animate attributeName="r" dur="6.0s" repeatCount="indefinite" keyTimes="0;0.5133;0.5333;0.6300;1" values="4;4;8;4;4"/></circle>
+  <text x="870" y="184" text-anchor="middle" class="tag">Gestão</text>
+  <text x="870" y="98" text-anchor="middle" class="t">Líder de times</text>
+  <text x="870" y="120" text-anchor="middle" class="s">marketing, dev e estratégia</text></g><g><circle cx="1050" cy="150" r="13" fill="none" stroke="#1a7f37" stroke-width="2" opacity="0"><animate attributeName="r" dur="6.0s" repeatCount="indefinite" keyTimes="0;0.6406;0.7573;1" values="13;13;33;33"/><animate attributeName="opacity" dur="6.0s" repeatCount="indefinite" keyTimes="0;0.6406;0.6606;0.7573;1" values="0;0;1;0;0"/></circle><circle cx="1050" cy="150" r="13" fill="#ffffff" stroke="#1a7f37" stroke-width="3"/><circle cx="1050" cy="150" r="7" fill="#1a7f37"><animate attributeName="r" dur="6.0s" repeatCount="indefinite" keyTimes="0;0.6406;0.6606;0.7573;1" values="7;7;11;7;7"/></circle>
+  <text x="1050" y="124" text-anchor="middle" class="tag">Hoje</text>
+  <text x="1050" y="212" text-anchor="middle" class="t">CTO da NMK</text>
+  <text x="1050" y="234" text-anchor="middle" class="s">produtos com IA</text></g>
+<rect x=".5" y=".5" width="1199" height="299" rx="14" fill="none" stroke="#d0d7de"/>
+</svg>

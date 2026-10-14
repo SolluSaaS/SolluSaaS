@@ -1,0 +1,36 @@
+#!/usr/bin/env bash
+# Demo do perfil: do problema ao app em produção, no estilo Matrix.
+G="#3fb950"; D="#2ea043"; W="#e6edf3"
+export GUM_CHOOSE_CURSOR_FOREGROUND="$G" GUM_CHOOSE_SELECTED_FOREGROUND="$G" \
+       GUM_CHOOSE_HEADER_FOREGROUND="$W" GUM_CHOOSE_ITEM_FOREGROUND="$D" \
+       GUM_SPIN_SPINNER_FOREGROUND="$G" GUM_SPIN_SPINNER="minidot"
+
+gum style --foreground "$G" --border double --border-foreground "$D" \
+  --align center --width 56 --padding "1 4" \
+  "N M K" "Solution is more than software."
+echo
+
+PROB=$(gum choose --show-help=false --cursor "▸ " --header "Wake up, Neo... qual é o problema do seu negócio?" "Processos manuais" "Dados espalhados em planilhas" "Atendimento lento" "Tudo isso, sinceramente")
+gum style --foreground "$W" "Wake up, Neo... qual é o problema do seu negócio?"
+gum style --foreground "$D" "  ✓ $PROB. Anotado."
+echo
+
+gum spin --title "Ouvindo a reunião com o cliente..."          -- sleep 1.3
+gum style --foreground "$G" "  ✓ Problema entendido antes da primeira linha de código"
+gum spin --title "Escrevendo o PRD com o Claude..."             -- sleep 1.3
+gum style --foreground "$G" "  ✓ PRD aprovado"
+gum spin --title "Subindo Supabase + Edge Functions..."         -- sleep 1.3
+gum style --foreground "$G" "  ✓ Banco, autenticação e automações no ar"
+gum spin --title "Deploy na Vercel..."                          -- sleep 1.3
+gum style --foreground "$G" "  ✓ App em produção. Powered by NMK"
+echo
+
+PILL=$(gum choose --show-help=false --cursor "▸ " --header "Agora a escolha é sua." "🔵 Pílula azul: continuar nas planilhas" "🔴 Pílula vermelha: falar com a NMK")
+gum style --foreground "$W" "Agora a escolha é sua."
+gum style --foreground "$D" "  ✓ $PILL"
+echo
+if [[ "$PILL" == *vermelha* ]]; then
+  gum style --foreground "$G" --border rounded --border-foreground "$G" --padding "0 3" --bold "Eu sei Kung Fu."
+else
+  gum style --foreground "$D" "A história termina, você acorda na sua cama..."
+fi
