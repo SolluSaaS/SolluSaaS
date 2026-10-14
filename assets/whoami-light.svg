@@ -36,7 +36,7 @@
 <g class="blink"><rect y="246" width="10" height="20" fill="#1a7f37" opacity="0">
   <animate attributeName="x" dur="13.10s" repeatCount="indefinite" calcMode="discrete" keyTimes="0.00000;0.46870;0.47328;0.47786;0.48244;0.48702;0.49160;0.49618;0.96947;1.00000" values="152.8;152.8;162.4;172.0;181.6;191.2;200.8;210.4;214.4;152.8"/>
   <animate attributeName="opacity" dur="13.10s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.46870;0.52290" values="0;1;0"/></rect></g>
-<text x="28" y="292" fill="#1f2328" opacity="0">35+ anos em tecnologia. Começou aos 13. Profissional desde os 16.
+<text x="28" y="292" fill="#1f2328" opacity="0">35+ anos em tecnologia. Começou aos 13, no suporte. Professor aos 18.
   <animate attributeName="opacity" dur="13.10s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.52290;0.96947" values="0;1;0"/></text><clipPath id="c4"><rect x="28" y="302" height="28" width="0">
   <animate attributeName="width" dur="13.10s" repeatCount="indefinite" calcMode="discrete" keyTimes="0.00000;0.57252;0.57710;0.58168;0.58626;0.59084;0.59542;0.60000;0.60458;0.60916;0.61374;0.61832;0.96947;1.00000" values="124.8;124.8;134.4;144.0;153.6;163.2;172.8;182.4;192.0;201.6;211.2;220.8;224.8;124.8"/></rect></clipPath>
 <g opacity="0"><animate attributeName="opacity" dur="13.10s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.57252;0.96947" values="0;1;0"/>

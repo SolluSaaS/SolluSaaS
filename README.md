@@ -99,9 +99,10 @@ Eu não escrevo código: eu conduzo produtos com IA, da reunião com o cliente a
 ![Telegram](https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)
 ![Linear](https://img.shields.io/badge/Linear-5E6AD2?style=for-the-badge&logo=linear&logoColor=white)
 
-## ⚡ Fun fact
+## ⚡ Fun facts
 
-O **H** do Renatho é estratégia de SEO. Quando eu dava aulas de SEO, havia quatro "Renato Siqueira" mais famosos do que eu no Google. Passei a assinar Renatho, com H, e no Google só aparecia eu. O pseudônimo virou nome de registro.
+- **Já fui menor infrator.** Comecei aos 13 anos, copiando disquetes, embalando computadores e ensinando clientes a ligar um **Amiga** (depois veio o ZX Spectrum). Era a época da reserva de mercado, e trazer computador de fora para vender no Brasil era crime. Eu não sabia.
+- **O H do Renatho é estratégia de SEO.** Quando eu dava aulas de SEO, havia quatro "Renato Siqueira" mais famosos do que eu no Google. Passei a assinar Renatho, com H, e no Google só aparecia eu. O pseudônimo virou nome de registro.
 
 ## 🐍 Contribuições
 
