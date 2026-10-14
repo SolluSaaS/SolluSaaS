@@ -18,7 +18,7 @@
   <a href="#-contribuições">Contribuições</a>
 </h6>
 
-<a href="https://github.com/SolluSaaS"><img src="https://komarev.com/ghpvc/?username=SolluSaaS&label=visitantes&color=7ee787&labelColor=24292f&style=for-the-badge" alt="Visitantes"/></a>
+<img src="https://img.shields.io/badge/Portugal%20%C2%B7%20Brasil-PMEs-7ee787?style=for-the-badge&labelColor=24292f" alt="Portugal e Brasil"/>
 <img src="https://img.shields.io/badge/Barueri-SP-7ee787?style=for-the-badge&labelColor=24292f&color=7ee787" alt="Barueri, SP"/>
 <img src="https://img.shields.io/badge/NMK-CTO-7ee787?style=for-the-badge&labelColor=24292f&color=7ee787" alt="CTO da NMK"/>
 <img src="https://img.shields.io/badge/vibe%20coder-dono%20das%20ideias-7ee787?style=for-the-badge&labelColor=24292f&color=7ee787" alt="Vibe coder"/>
