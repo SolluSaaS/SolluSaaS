@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 470" width="600" height="470" role="img" aria-label="O que eu faço: estratégia empresarial, processos de negócio, automação e software sob medida com IA.">
+<style>
+  .t { font: 700 19px ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace; fill: #eafff0; } .s { font: 14px ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace; fill: #8fbf98; }
+  .n { font: 700 22px ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace; fill: #00ff41; } .h { font: 600 14px ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace; fill: #008f11; letter-spacing: 6px; }
+  .q { font: italic 15px ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace; fill: #00ff41; }
+</style>
+<rect width="600" height="470" rx="14" fill="#0d0208"/>
+<text x="24" y="34" class="h">// O QUE EU FAÇO</text>
+<g opacity="0"><animate attributeName="opacity" to="1" begin="0.30s" dur=".4s" fill="freeze"/>
+  <text x="34" y="80" class="n">01</text>
+  <text x="80" y="80" class="t">Estratégia empresarial</text>
+  <text x="80" y="104" class="s">o problema do negócio vem antes</text>
+  <rect x="80" y="120" width="0" height="4" rx="2" fill="#00ff41"><animate attributeName="width" to="480" begin="0.30s" dur="1s" fill="freeze"/></rect>
+</g><g opacity="0"><animate attributeName="opacity" to="1" begin="0.65s" dur=".4s" fill="freeze"/>
+  <text x="34" y="172" class="n">02</text>
+  <text x="80" y="172" class="t">Processos de negócio</text>
+  <text x="80" y="196" class="s">mapear, simplificar, medir</text>
+  <rect x="80" y="212" width="0" height="4" rx="2" fill="#00ff41"><animate attributeName="width" to="480" begin="0.65s" dur="1s" fill="freeze"/></rect>
+</g><g opacity="0"><animate attributeName="opacity" to="1" begin="1.00s" dur=".4s" fill="freeze"/>
+  <text x="34" y="264" class="n">03</text>
+  <text x="80" y="264" class="t">Automação</text>
+  <text x="80" y="288" class="s">n8n, Make, Typebot, Edge Functions</text>
+  <rect x="80" y="304" width="0" height="4" rx="2" fill="#00ff41"><animate attributeName="width" to="480" begin="1.00s" dur="1s" fill="freeze"/></rect>
+</g><g opacity="0"><animate attributeName="opacity" to="1" begin="1.35s" dur=".4s" fill="freeze"/>
+  <text x="34" y="356" class="n">04</text>
+  <text x="80" y="356" class="t">Software sob medida com IA</text>
+  <text x="80" y="380" class="s">do PRD ao app em produção</text>
+  <rect x="80" y="396" width="0" height="4" rx="2" fill="#00ff41"><animate attributeName="width" to="480" begin="1.35s" dur="1s" fill="freeze"/></rect>
+</g>
+<text x="300.0" y="448" text-anchor="middle" class="q">"Solution is more than software."</text>
+<rect x=".5" y=".5" width="599" height="469" rx="14" fill="none" stroke="#00ff41" stroke-opacity=".3"/>
+</svg>
